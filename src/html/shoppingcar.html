@@ -1,0 +1,101 @@
+<link rel="stylesheet" type="text/css" href="../css/shoppingcar.css">
+  <div ng-controller="hqCtrl" class="zuida">
+	<!-- 购物车 -->
+	<h2 class="shopping">购物车</h2>
+
+	<!-- 空购物车 -->
+	<dl class="emptycar" ng-show="total() == 0">
+	    <dt><img src="../imgs/n41.png"></dt>
+		<dd>亲，购物车空空的耶--</dd>
+        <p><a href="#/btn1">去逛逛</a></p>
+	</dl>
+    
+
+    <!-- 有数据的购物车 -->
+    <div class="xianshi"  ng-show="total()">
+        <div class="wang">
+            <p><span>收&nbsp;&nbsp;货&nbsp;&nbsp;人</span><span>王先生</span></p>
+            <p><span>电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话</span><span>18700000000</span><span>修改 ></span></p>
+            <p><span>收货地址</span><span>北京市</span></p>
+        </div>
+
+        <div class="shansong">
+            <p>闪送超市</p>
+            <p>￥0起送，22:00前满￥30减免运费，22:00后满￥69减免运费</p>
+        </div>
+
+        <div class="shhsj">
+            <p><span>收货时间</span><span>一小时送达</span><span>可预定 ></span></p>
+        </div>
+        
+        <div class="beizhu">
+            <form>
+                <label>收货备注</label>
+                <input type="text" name="" placeholder="可输入100字以内特殊要求内容">
+            </form>
+        </div>
+
+        <div class="gmsp" ng-repeat="obj in cartDate" ng-hide="{{obj['count']==0}}">
+            <input type="checkbox" name="">
+            <dl>
+                <dt><img ng-src="{{obj['img']}}"></dt>
+                <dd>
+                    <p>{{obj["name"]}}</p>
+                    <p>￥{{obj["price"]}}</p>
+                </dd>
+            </dl>
+            <div>
+                <p ng-click="shanchu(obj)"><img src="../imgs/n27.png"></p>
+                <p>{{obj["count"]}}</p>
+                <p ng-click="tianjia(obj)"><img src="../imgs/n26.png"></p>
+            </div>
+        </div>
+   
+        <div class="quanxuan">
+          <div>
+              <form>
+                <input type="checkbox" name="">  全选
+              </form>
+              <p>共：<span>￥{{total() | number:2}}</span></p>
+          </div>
+          <div>选好了</div>
+        </div>
+    </div>
+    
+
+    <!-- 底部功能区 -->
+    <footer>
+    	<dl>
+            <a href="#/btn1">
+                <dt><img src="imgs/n17.png"></dt>
+                <dd>首页</dd>
+            </a>
+    	</dl>
+    	<dl>
+            <a href="#/btn2">
+                <dt><img src="imgs/n18.png"></dt>
+                <dd>闪送超市</dd>
+            </a>
+    	</dl>
+    	<dl>
+            <a href="#/btn3">
+                <dt><img src="imgs/n19.png"></dt>
+                <dd>新鲜预定</dd>
+            </a>
+    	</dl>
+    	<dl>
+            <a href="#/btn4">
+                <dt><img src="imgs/n20.png"></dt>
+                <dd>购物车</dd>
+            </a>
+    	</dl>
+    	<dl>
+            <a href="#/btn5">
+                <dt><img src="imgs/n21.png"></dt>
+                <dd>我的</dd>
+            </a>
+    	</dl>
+
+
+     </div>
+    </footer>

@@ -1,0 +1,26 @@
+
+/*搜索头部*/
+.sou{width:100%; background: #f9fafd; display:flex; align-items: center;
+     height:6rem; font-size:1.6rem; border-bottom:1px solid #cccccc;
+     overflow: hidden;}
+.sou>div{width:3%; margin-left:5%;}
+.sou>div img{width:100%;}
+.sou form{width:62%; height:4rem; display: flex;align-items: center; margin-left:8%;
+     border:1px solid #ccc; border-radius:4px;}
+.sou form div{width:3rem; margin:0 0.6rem;}
+.sou form div img{width:100%;}
+.sou form input{font-size: 1.5rem; border:none; outline: medium; height:100%; 
+	      background:#f9fafd; }
+.sou span{color:#999999; margin-left: 5%;}
+
+/*搜索中部*/
+.sou2{width:92%; margin:3rem auto;}
+.sou2>p{font-size:1.4rem; color:#999999; line-height:2.4rem;}
+.sou2>div p{margin:2rem 0px;}
+.sou2>div p span{display:inline-block; margin-right:3.5%; padding:3% 5%;
+     font-size:1.4rem; background: white; border-radius: 2rem;}
+
+/*搜索尾部*/
+.sou3{width:92%; margin:0 auto; font-size:1.4rem; color:#999999;}
+.sou3>div{width:70%; margin:2.6rem auto; border:1px solid #cccccc;
+     height:6rem; line-height: 6rem; border-radius: 0.6rem; text-align:center;}

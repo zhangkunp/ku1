@@ -1,0 +1,42 @@
+
+/*我的*/
+/*黄色区域*/
+.yellow{width:100%;height:16rem; background: #ffd600; position:relative;
+     overflow: hidden; font-size:1.4rem; position: fixed;  top:0;}
+.zhanghao{width:94%; height:8rem; margin:0 auto; margin-top: 2rem; display:flex; justify-content:space-between;
+     align-items: center;}
+.yellow img{width:100%;}
+.zhanghao div:nth-child(1){width:20%;}
+.zhanghao div:nth-child(2){width:75%; margin-left:5%; overflow:hidden;}
+.zhanghao div:nth-child(2) p:nth-child(1){color:white; font-weight:bold; margin-top:1rem;}
+.zhanghao div:nth-child(2) p:nth-child(2){width:40%; margin-top: 1rem; position:relative;}
+.zhanghao div:nth-child(2) p:nth-child(2) span{position:absolute; font-size:1.2rem; left:30%;
+     top:20%; color:#ec7944;}
+.zhanghao div:nth-child(3){width:5%;}
+.collect{position:absolute; width:100%; height:4rem; color:white; background: rgba(0,0,0,0.1); 
+	 bottom:0rem; display:flex; align-items: center;}
+.collect div{width:50%; height:3rem;  display:flex; align-items: center; justify-content: center;}
+.collect div:nth-child(1){border-right:2px solid white;}
+.collect div p:nth-child(1){width:13%; margin:0 1rem;}
+
+/*我的订单*/
+.dingdan{width:100%; background: white; margin-top:17.4rem;}
+.dingdan h2{font-weight:400; line-height:6rem; text-indent:2em; border-bottom: 2px solid #efefef;}
+.dingdan h2 span{float:right; margin-right:3%; font-size:1.3rem; color:#999999;}
+.dingdan h2 span a{color:black;}
+.dingdan div{width:100%; display: flex; font-size:1.4rem;}
+.dingdan div dl{width:25%; text-align: center; margin:2rem 0 1.5rem 0;}
+.dingdan div dl dt{width:20%; margin:0 auto;}
+.dingdan div dl dt img{width:100%;}
+
+/*功能区*/
+.gongneng{width:100%; margin-top:1.4rem; background: white; display:flex; flex-wrap: wrap;}
+.gongneng dl{width:25%; text-align: center; padding:2.5rem 0 2rem 0; border-bottom:2px solid #efefef;}
+.gongneng dl a{color:black;}
+.gongneng dl dt{width:60%; margin:0 auto;}
+.gongneng dl dt img{width:100%;}
+.gongneng dl dd{font-size:1.4rem;}
+
+/*退出账号*/
+.quit{width:100%; margin-top:4rem; background: white; padding-bottom:7rem;}
+.quit p{text-align: center; font-size:1.8rem; line-height:5rem;}

@@ -1,0 +1,105 @@
+*{margin:0; padding:0;}
+html{font-size:3vw; font-family:"微软雅黑";}
+body{background: #efefef;}
+ul li{list-style:none;}
+a{text-decoration: none;}
+
+/*首页页面*/
+ /*头部*/
+header{width:100%;background:#ffd600; display: flex; align-items: center; 
+	justify-content: space-between; position:fixed; z-index: 10; padding:1rem 0;}
+header dl{width:13%; text-align:center;}
+header dl:nth-of-type(1){margin-left:4%;}
+header dl:nth-of-type(2){margin-right:2%;}
+header dl a{color:black;}
+header dl dt{width:50%; height:50%; margin:0 auto; font-size:0px;}
+header dl dt img{width:100%; height:100%;}
+header dl dd{line-height: 1.6rem;}
+header h2{font-size:1.8rem;}
+
+/*轮播图*/
+#lunbo1{padding-top:5.8rem;}
+#lunbo1 .swiper-slide img{width:100%;}
+
+/*服务区*/
+.bakuai{width:100%; margin-top:1rem; background: white; display:flex; 
+      justify-content: center; flex-wrap: wrap; padding:1.2rem 0; 
+      overflow: hidden;}
+.bakuai dl{width:20.5%; margin:0px 1.5% 0.3rem; text-align:center;}
+.bakuai dl a{color:black;}
+.bakuai dl dt{width:100%;}
+.bakuai dl dt img{width:100%; height:100%;}
+.bakuai dl dd{font-size:1.2rem;}
+
+/*信息轮播区*/
+.xinxi{width:100%; height:4rem; margin-top:1rem; background: white; display:flex;
+      padding:0.6rem 0; box-sizing: border-box;}
+.toutiao{width:27%; height:2.8rem; font-size: 0px; text-align:center; border-right:2px solid #ccc;}
+.toutiao img{width:80%; height:100%;}
+
+.xinxi .swiper-container{width:72%; height:2.8rem; overflow: hidden;}
+.xinxi .swiper-slide{height:100%;  text-align:left; line-height:2.8rem;
+     text-indent: 0.4rem; font-size:1.2rem; color:#666666;}
+.xinxi .swiper-slide span{padding:1px 3px; font-size:1rem; border:2px solid red; border-radius:3px;
+     color:red;}
+
+/*三张图区*/
+.santu{width:100%; margin-top:1rem; display:flex;}
+.santu>div{width:33.33%; border-right:1px solid #e5e5e5; box-sizing: border-box;}
+.santu>div img{width:100%; height:100%;}
+
+/*四张图区*/
+.situ{width:100%; margin-top:1rem; display:flex; flex-wrap:wrap;}
+.situ>div{width:50%; border:1px solid #e5e5e5; box-sizing: border-box;}
+.situ>div img{width:100%; height:100%;}
+
+/*优选水果*/
+.youxuan{width:100%; background:white; margin-top:1rem;}
+.youxuan h2{width:94%; margin:0 auto; color:#f38631; font-size:1.8rem; line-height:3.0rem;}
+.youxuan h2 span{display:inline-block; width:7px; height:16px; background: #f38631;
+    margin-right:0.8rem;}
+.youxuan h2 a{font-weight:300; float:right; font-size:1.2rem; color:#999999; margin-right:1rem;}
+.zhutu{width:94%; margin:1rem auto; font-size: 0px;}
+.zhutu img{width:100%;}
+.sankuai{width:100%; padding-top: 0.6rem; display:flex;}
+.sankuai dl{width:33.33%; box-sizing: border-box; border-right:1px solid #ccc; position: relative;}
+.sankuai dl dt{width:78%; margin:0 auto; font-size:0px;}
+.sankuai dl dt img{width:100%;}
+.sankuai dl dd{ font-size:1.6rem; margin-top: 0.8rem; text-indent:0.6rem;}
+.p1{text-indent:0.6rem; line-height: 2.8rem;}
+.p1 span:nth-child(1){color:red; padding:1px 3px; border:1px solid red; border-radius:3px; margin-right:1rem;}
+.p1 span:nth-child(2){color:white; padding:1px 3px; background: red; border-radius:3px;}
+.xiaokuai{display: flex;}
+.xiaokuai div:nth-child(1){text-indent:0.6rem; font-size: 1.2rem; color:#999999;}
+.xiaokuai div:nth-child(2){position:absolute; right:1rem; bottom:0.5rem;}
+.xiaokuai div:nth-child(2) img{width:100%;}
+.p2{margin:0.6rem 0px;}
+.p2 span:nth-child(1){color:red; margin-right: 1rem;}
+.p2 span:nth-child(2){text-decoration: line-through;}
+
+/*获取信息区*/
+.huoqu{width:100%; box-sizing: border-box; display: flex; flex-wrap: wrap; padding:4rem 6px 6rem 6px; border-top:1px solid #d3d3d3;
+      margin-top: 1rem;}
+.huoqu dl{width:50%; box-sizing:border-box; border:6px solid #efefef;background: white;
+     position: relative;}
+.huoqu dl dt{width:100%; font-size:0px;}
+.huoqu dl dt img{width:100%;}
+.huoqu dl dd{ font-size:1.6rem; margin-top: 0.8rem; text-indent:0.6rem;}
+.xiaokuai2 div:nth-child(1){text-indent:0.6rem; font-size: 1.2rem; color:#999999;}
+.xiaokuai2 div:nth-child(2){position:absolute; right:1rem; bottom:0.5rem; display:flex; align-items:center;}
+.xiaokuai2 div:nth-child(2) img{width:100%;}
+.xiaokuai2 div:nth-child(2) p:nth-child(2){margin:0 0.2rem; font-size:1.2rem;}
+/*.xiaokuai2 div:nth-child(2) p{display:none;}
+.xiaokuai2 div:nth-child(2) p:nth-child(3){display:block;}
+*/
+/*底部功能区*/
+footer{width:100%; background: #f6f6f6; display:flex; position:fixed; bottom:0px;
+     opacity: 0.9; font-size:1.2rem; padding:0.5rem 0px; z-index:9;}
+footer dl{width:20%; text-align:center;}
+footer dl a{color:black;}
+footer dl dt{font-size: 0px; width:40%; margin:0 auto;}
+footer dl dt img{width:100%;}
+footer dl dd{line-height:1.8rem;} 
+
+
+

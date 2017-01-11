@@ -1,0 +1,36 @@
+
+/*积分商城*/
+.jifen{width:100%; height: 5.4rem; background: #f9fafd; display:flex; justify-content: space-between;
+	  align-items:center; border-bottom:1px solid #ccc; position: fixed;}
+.jifen div{width:3rem; height:3rem; margin-left: 3%;}
+.jifen div img{width:100%;}	  
+.jifen h2{font-size:1.8rem; font-weight:400;}
+
+/*圆环*/
+.round{width:100%; overflow:hidden;}
+.round>div{width:16rem; height:16rem; margin:7rem auto 2.6rem; background:#ef592a; border-radius:100%;
+     display:flex; justify-content: center; align-items:center;}
+.round>div>div{width:11.5rem; height:11.5rem; background: #e13600; border-radius:100%;
+     display:flex; justify-content: center; align-items:center;}
+.round>div>div>div{width:10rem; height:10rem; background: white; border-radius:100%; text-align: center;}
+.round>div>div>div p:nth-child(1){font-size:1.4rem; color:#999999; margin-top:3rem;}
+.round>div>div>div p:nth-child(2){font-size:1.6rem; color:red;}
+
+/*积分类型*/
+.leixing{width:100%; background: white; border-top:2px solid #ccc; display:flex; }
+.leixing dl{width:33.33%; border-right:1px solid #e6e6e6; text-align: center; padding-bottom:1rem;}
+.leixing dl dt{width:24%; margin:1.2rem auto 0.8rem;}
+.leixing dl dt img{width:100%;}
+.leixing dl dd{font-size:1.2rem; color:#999999;}
+
+/*兑换券*/
+.duihuan{width:100%; display: flex; flex-wrap: wrap; background: white; margin-top: 1.2rem;
+     border-bottom:1px solid #cccccc; margin-bottom: 1.2rem;}
+.duihuan dl{width:50%; box-sizing: border-box; font-size:1.4rem;}
+.duihuan dl:nth-child(1){border-right:1px solid #ccc; border-bottom:1px solid #ccc;}
+.duihuan dl:nth-child(2){border-bottom:1px solid #ccc;}
+.duihuan dl:nth-child(3){ border-right:1px solid #ccc;}
+.duihuan dl dt{width:94%; margin:1.4rem auto;}
+.duihuan dl dt img{width:100%;}
+.duihuan dl dd{text-indent:1em;}
+.duihuan dl p{text-indent:1em; color:#ea6d41; line-height:4rem;}

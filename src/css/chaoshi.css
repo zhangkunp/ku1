@@ -1,0 +1,44 @@
+/*济远路附近*/
+.dingbu{width:100%; background: #ffd600; display:flex; justify-content: space-between;
+      align-items: center; padding:0.8rem 0 0.5rem; position:fixed; top:0px; z-index:10;}
+.dingbu span{width:10%;}   
+.dingbu h2{font-size: 1.8rem; text-align: center;}
+.dingbu dl{width:10%; text-align: center; margin-right:3%;}
+.dingbu dl a{color:black;}
+.dingbu dl dt{width:60%; overflow: hidden; margin:0 auto;}
+.dingbu dl dt img{width:100%;}
+.dingbu dl dd{font-size:1.2rem;}
+
+/*左侧栏*/
+.leftce{width:25%; height:80%; position: fixed; left:0px;overflow: auto;}
+.leftce ul li{line-height: 4.6rem; border-bottom:1px solid #d9d9d9; font-size: 1.5rem;
+     text-align: center; box-sizing: border-box;}
+.leftce ul .shuxian{border-left:6px solid #ffd600;}
+.leftce ul p{width:100%; height:5rem;}
+
+/*白色定位*/
+.zfixed{width:75%; background: rgba(255,255,255,0.7); border-bottom:1px solid #d3d3d3;
+	 position: fixed; left:25%; z-index: 9; height:5rem; display: flex; 
+	 align-items: center; }
+.zfixed p{width:50%; text-align: center; font-size: 1.4rem; color:#666666;}
+.zfixed p:nth-child(1){border-right: 2px solid #999999;}
+
+/*右侧栏*/
+.rightce{width:75%; margin-left:25%; margin-top: 5.1rem; background: white;
+     padding-top: 5rem; padding-bottom:6rem;}
+.rightce dl{width:100%; box-sizing:border-box; border-bottom:1px solid #efefef;
+     position: relative; display: flex;}
+.rightce dl dt{width:38%; font-size:0px;}
+.rightce dl dt img{width:100%;}
+.rightce dl dd{width:62%; font-size:1.4rem; padding:0.8rem 0;}
+.rightce dl dd p:nth-child(1){margin-top:0.5rem; color:#333333;}
+.rightce dl dd p:nth-child(2){font-size: 1.2rem; line-height: 2.4rem;}
+.rightce dl dd p:nth-child(2) span:nth-child(1){color:red; padding:1px 3px;
+     border:1px solid red; border-radius:3px; margin-right:1rem;}
+.rightce dl dd p:nth-child(2) span:nth-child(2){color:white; padding:1px 3px;
+     background: red; border-radius:3px;}
+.rightce dl dd p:nth-child(3){line-height:2.4rem;color:#999999;}
+.rightce dl dd p:nth-child(4) span:nth-child(1){color:red; margin-right: 1rem;}
+.rightce dl dd p:nth-child(4) span:nth-child(2){text-decoration: line-through;}
+.rightce dl div{position:absolute; width:2.5rem; right:1rem; bottom:0.5rem;}
+.rightce dl div img{width:100%;}

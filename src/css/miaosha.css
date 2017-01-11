@@ -1,0 +1,50 @@
+
+/*疯狂秒杀页面*/
+/*头部*/
+.header{width:100%; height:6rem; display: flex;  align-items: center; 
+	justify-content: space-between; position:fixed; top:0; z-index: 10; 
+    background: #efefef;}
+.header div{width:3rem; height:50%; font-size:0;}
+.header div:nth-of-type(1){margin-left:3%;}
+.header div:nth-of-type(2){margin-right:5%;}
+.header div img{width:100%;}
+.header h2{font-size:1.8rem;}
+
+/*大图片*/
+.datu1{width:100%; font-size: 0px; overflow:hidden; margin-top: 6rem;}
+.datu1 img{ width:100%;}
+
+/*四个方块*/
+.square{width:100%; display:flex; font-size:1.4rem; color:white; 
+     text-align: center;}
+.square div{width:25%; padding:1rem 0; background:#272c2a; border-right:1px solid white;}
+.square div:last-child{background: #fdd000; border:none;}
+.square div p:nth-child(2){margin-top: 0.5rem;}
+.square div p:nth-child(3){width:20%; margin:0 auto; font-size: 0px;}
+.square div p:nth-child(3) img{width:100%;}
+
+/*本场结束*/
+.finish{width:100%; display: flex; font-size:1.4rem; margin-top: 1px;} 
+.finish div:nth-child(1){width:40%; background:#fdd000; text-align: center;}
+.finish div:nth-child(1) p{line-height: 2.4rem;}
+.finish div:nth-child(2){width:60%; display: flex; align-items: center;}
+.finish div:nth-child(2) p{width:65%; height:3.6rem; margin:0 auto; background: black; color:white;
+     text-align: center; line-height: 3.6rem; border-radius:3.6rem;}
+
+/*信息获取2*/
+.message{width:100%;}
+.message dl{width:100%; overflow: hidden; display:flex; margin-bottom: 0.8rem; background:white;}
+.message dl dt{width:42%; border-right:2px solid #efefef; font-size:0px;}
+.message dl dt img{width:100%;}
+.message dl dd{width:58%; font-size:1.4rem; padding:1rem 0 0.5rem 0;}
+.message dl dd p{margin:1rem 0 0.5rem 1.5rem;}
+.message dl dd p:nth-child(3) span:nth-child(1){color:#ff602c; font-size: 1.8rem; font-weight: bold;}
+.message dl dd p:nth-child(3) span:nth-child(2){color:#999999;}
+.zhi1{width:70%; text-align: center; background: #aaaaaa; color:white;
+     line-height: 3.2rem; border-radius: 3.2rem;}
+.message dl dd .yan{background: orange;}
+
+/*购物车*/
+.cart{position:fixed; width:15%; bottom:1.5rem; right:1rem; width:15%; border-radius: 100%; 
+	 overflow: hidden; overflow: hidden; background: #ffd600;}
+.cart img{width:100%;}

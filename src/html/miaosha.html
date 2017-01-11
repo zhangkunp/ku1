@@ -1,0 +1,71 @@
+<link rel="stylesheet" type="text/css" href="../css/miaosha.css">
+
+
+    <!-- 疯狂秒杀页面 -->
+    <!-- 头部 -->
+	<div class="header">
+		<div><a href="#"><img src="../imgs/n33.png"></a></div>
+		<h2>疯狂秒杀</h2>
+		<div><img src="../imgs/n34.png"></div>
+	</div>
+
+	<!-- 大图片 -->
+	<div class="datu1">
+        <img src="../imgs/n35.jpg">		
+	</div>
+
+	<!-- 四个方块 -->
+	<div class="square">
+		<div>
+			<p>10:00</p>
+			<p>已结束</p>
+			<p><img src="../imgs/n36.png"></p>
+		</div>
+		<div>
+			<p>12:00</p>
+			<p>已结束</p>
+			<p><img src="../imgs/n36.png"></p>
+		</div>
+		<div>
+			<p>15:00</p>
+			<p>已结束</p>
+			<p><img src="../imgs/n36.png"></p>
+		</div>
+		<div>
+			<p>19:00</p>
+			<p>正在抢购</p>
+			<p><img src="../imgs/n37.png"></p>
+		</div>
+	</div>
+
+	<!-- 本场结束 -->
+	<div class="finish">
+		<div>
+			<p>距离本场结束</p>
+			<p>01:35:29</p>
+		</div>
+		<div>
+			<p>查看活动规则</p>
+		</div>
+	</div>
+
+	<!-- 信息获取2 -->
+	<div class="message" ng-controller="myCtrl2">
+		<dl ng-repeat="shu2 in shuju2">
+			<dt><img ng-src="{{shu2['img']}}"></dt>
+			<dd>
+				<p>{{shu2['name']}}</p>
+				<p>{{shu2['specifics']}}</p>
+				<p><span>￥{{shu2['price']}}</span><span>原价：{{shu2['market_price']}}元</span></p>
+				<p class="zhi1" ng-class="yanse('{{shu2.btnText}}')">{{shu2['btnText']}}</p>
+			</dd>
+		</dl>
+	</div>
+
+	<!-- 购物车 -->
+	<div class="cart">
+		<img src="../imgs/n39.png">
+	</div>
+
+
+    <script type="text/javascript" src="../js/app/shuju1.js"></script>

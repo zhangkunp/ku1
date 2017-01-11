@@ -1,0 +1,71 @@
+<link rel="stylesheet" type="text/css" href="../css/yuding.css">
+
+	<!-- 新鲜预定 -->
+	<h2 class="fresh">新鲜预定</h2>
+
+	<!-- 导航条 -->
+	<ul class="nav">
+		<li>精选水果</li>
+		<li>直供蔬菜</li>
+		<li>水产海鲜</li>
+		<li>肉禽蛋</li>
+		<li>乳品烘培</li>
+		<li>熟食面点</li>
+		<li>粮油副食</li>
+		<li>酒水饮料</li>
+		<li>休闲零食</li>
+		<li>整箱购</li>
+	</ul>
+
+	<!-- 获取数据4 -->
+    <div class="fruit" ng-controller="myCtrl4">
+    	<h3>精选水果</h3>
+    	<dl ng-repeat="shu4 in shuju4">
+    		<dt><img ng-src="{{shu4['img']}}"></dt>
+    		<dd>
+    			<p>{{shu4['name']}}</p>
+    			<p><span>￥{{shu4['price']}}</span><span>￥{{shu4['market_price']}}</span></p>
+    		</dd>
+    		<p><img src="../imgs/n40.png"></p>
+    	</dl>
+    </div>
+	
+	<!-- 底部功能区 -->
+    <footer>
+        <dl>
+            <a href="#/btn1">
+                <dt><img src="imgs/n17.png"></dt>
+                <dd>首页</dd>
+            </a>
+        </dl>
+        <dl>
+            <a href="#/btn2">
+                <dt><img src="imgs/n18.png"></dt>
+                <dd>闪送超市</dd>
+            </a>
+        </dl>
+        <dl>
+            <a href="#/btn3">
+                <dt><img src="imgs/n19.png"></dt>
+                <dd>新鲜预定</dd>
+            </a>
+        </dl>
+        <dl>
+            <a href="#/btn4">
+                <dt><img src="imgs/n20.png"></dt>
+                <dd>购物车</dd>
+            </a>
+        </dl>
+        <dl>
+            <a href="#/btn5">
+                <dt><img src="imgs/n21.png"></dt>
+                <dd>我的</dd>
+            </a>
+        </dl>
+    </footer>
+
+   <script type="text/javascript" src="../js/app/yuding.js"></script>
+
+
+   
+   

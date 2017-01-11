@@ -1,0 +1,20 @@
+
+.fresh{width:100%; background: #f9fafd; line-height:5rem; font-size:1.8rem;
+     text-align:center; border-bottom:1px solid #d3d3d3; position: fixed; z-index: 10; top:0px;}
+.nav{overflow: hidden; margin-top: 6rem; font-size:1.4rem; border-top: 1px solid #999999; background: white;}
+.nav li{float:left;width:20%; text-align: center; border-bottom:1px solid #ccc; padding:0.8rem 0px;}
+
+/*获取数据4*/
+.fruit{width:100%; margin-top: 1rem; border-top: 1px solid #999999; background: white;
+     padding-bottom:8rem;}
+.fruit h3{text-indent:2rem; font-weight:400; font-size:1.4rem; line-height: 3rem; 
+     border-bottom: 1px solid #ccc;}
+.fruit dl{display: flex; border-bottom: 1px solid #ccc; position:relative;}
+.fruit dl dt{width:35%; padding: 0 5%; font-size:0px;}
+.fruit dl dt img{width:100%;}
+.fruit dl dd{width:40%;}
+.fruit dl dd p:nth-child(1){font-size:1.2rem; margin-top: 8%; color:#a3a3a3;}
+.fruit dl dd p:nth-child(2){margin-top: 25%;}
+.fruit dl dd p:nth-child(2) span:nth-child(1){font-size: 1.6rem; color:#ff602c; font-weight: bold;}
+.fruit dl dd p:nth-child(2) span:nth-child(2){font-size: 1.2rem; color:#a3a3a3; text-decoration: line-through;}
+.fruit dl>p{position:absolute; bottom:15%; right:7%; font-size: 0px;}
